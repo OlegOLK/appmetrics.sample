@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="App.Metrics.AspNetCore.All" Version="4.2.0" />
+    <PackageReference Include="App.Metrics.Formatters.GrafanaCloudHostedMetrics" Version="4.2.0" />
+    <PackageReference Include="App.Metrics.GrafanaCloudHostedMetrics" Version="4.2.0" />
+    <PackageReference Include="App.Metrics.Reporting.GrafanaCloudHostedMetrics" Version="4.2.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+  </ItemGroup>
+
+</Project>
